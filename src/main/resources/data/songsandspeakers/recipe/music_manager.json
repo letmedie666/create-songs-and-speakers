@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "G": {
+      "tag": "c:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "K": {
+      "item": "create:belt_connector"
+    },
+    "R": {
+      "item": "create:redstone_link"
+    }
+  },
+  "pattern": [
+    "IIB",
+    "GCR",
+    "KKE"
+  ],
+  "result": {
+    "id": "songsandspeakers:music_manager",
+    "count": 1
+  },
+  "show_notification": true
+}

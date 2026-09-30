@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " K "
+  ],
+  "key": {
+    "B": {
+      "item": "create:belt_connector"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "tag": "c:ingots/copper"
+    },
+    "K": {
+      "tag": "c:glass_blocks/colorless"
+    }
+  },
+  "result": {
+    "id": "songsandspeakers:cassette_tape_glass",
+    "count": 1
+  }
+}

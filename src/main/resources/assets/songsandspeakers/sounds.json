@@ -1,0 +1,11 @@
+{
+  "stream": {
+    "subtitle": "subtitles.songsandspeakers.stream",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave1",
+        "stream": true
+      }
+    ]
+  }
+}

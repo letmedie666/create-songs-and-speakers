@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "GNU LGPLv3"
+
+[[mods]]
+modId = "songsandspeakers"
+version = "1.0.4"
+displayName = "Create - Songs and Speakers"
+logoFile = "logo.png"
+credits = "Models and textures: Billnotic (Create - Songs and Speakers). Based on Iam Music Player by MORIMORI0317, nin8995 and the FelNull developers, and Iam Music Player Renewed by Us3r0 and Shadowbee27 (GNU LGPLv3). MP3 decoding: JLayer (JavaZOOM, GNU LGPL)."
+description = '''
+Music blocks in the style of Create.
+
+Music Manager plays music from a direct link (.mp3 / .ogg).
+Cassette Deck plays cassettes: record your own playlists on them.
+Boombox amplifies nearby music so it can be heard further away.
+Parabolic Antenna turns a Music Manager or Cassette Deck into a radio station,
+and the Portable Radio lets you listen to it anywhere in the dimension.
+
+Everyone nearby hears the same part of the song. Works with redstone and comparators.
+'''
+
+[[dependencies.songsandspeakers]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.songsandspeakers]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.songsandspeakers]]
+modId = "create"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

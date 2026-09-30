@@ -1,0 +1,7 @@
+{
+  "parent": "songsandspeakers:block/music_manager/music_manager_base",
+  "textures": {
+    "1": "songsandspeakers:block/music_manager/music_manager_off",
+    "6": "songsandspeakers:block/music_manager/music_manager_side_behind_off"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "antenna",
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "R": {
+      "item": "songsandspeakers:radio_antenna"
+    }
+  },
+  "pattern": [
+    "RIR",
+    "ILI",
+    "RIR"
+  ],
+  "result": {
+    "id": "songsandspeakers:parabolic_antenna",
+    "count": 1
+  },
+  "show_notification": true
+}
